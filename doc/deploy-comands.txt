@@ -1,0 +1,17 @@
+
+Hello World Example:
+
+    docker build --build-arg SOURCE_LOCATION=/Users/israel-martinez/code/src/github.com/israel-martinez/go/go_api_rest/docker-for-microservices-golang/api --no-cache -t israndroid/go-mongo-microservice:latest .
+
+    docker run --name go-mongo-microservice -d --rm -p 8000:9090 --network dockerformicroservicesgolang_network1 israndroid/go-mongo-microservice:latest
+
+    docker run --name go-mongo-microservice -d -p 8000:9090 -it israndroid/go-mongo-microservice 
+
+MS-A-01 papitajuan orders: execute on management-tracking-system/orders
+
+    docker build --no-cache -t papitajuan/orders:latest .
+
+    docker run --rm --name papitajuan-orders -d -p 8080:8080 -it papitajuan/orders:latest
+
+    # Show containeirs in execution
+    docker ps
