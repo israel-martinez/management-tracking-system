@@ -13,7 +13,7 @@ This is a REST microservices that receive /POST /GET /PATH /DELETE for rutes exp
 *  [**PATCH**] http://localhost:8080/orders/{id}    : for delete one order by id
 
 
-See postman collections for test microservice in [management-tracking-system](https://github.com/israel-martinez/management-tracking-system/tree/develop/postman-collections)
+See postman collections for test microservice in [management-tracking-system/postman-collections](https://github.com/israel-martinez/management-tracking-system/tree/develop/postman-collections)
 
 
 **WIP** Store Registers in a MongoDB docker image, this is  feature mongo-db
